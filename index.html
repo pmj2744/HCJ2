@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HCJdemo</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- 메뉴영역 -->
+    <nav class="navbar">
+      <div class="container">
+        <div class="logo">WebDemo</div>
+        <ul class="nav">
+          <li>
+            <a href="/">Home</a>
+          </li>
+
+          <li>
+            <a href="about.html">About</a>
+          </li>
+
+          <li>
+            <a href="contact.html">contact</a>
+          </li>
+
+          <li>
+            <a href="list.html">list</a>
+          </li>
+
+          <li>
+            <a href="timetable.html">timetable</a>
+          </li>
+
+          <li>
+            <a href="music&movie.html">music&movie</a>
+          </li>
+
+          <li>
+            <a href="signup.html">signup</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- 메인섹션 -->
+    <section class="main">
+      <div class="container">
+        <h1>웹프로그래밍. Web Progamming</h1>
+        <h2>
+          웹 개발자를 위한 온라인 매뉴얼 :
+          <a href="https://www.w3schools.com/">W3schools</a>
+        </h2>
+
+        <p>
+          웹프로그래밍의 3가지 요소:
+          <a href="https://www.w3schools.com/html/default.asp">html</a>
+          <a href="https://www.w3schools.com/css/default.asp">css</a>
+          <a href="https://www.w3schools.com/js/default.asp">javascript</a>
+        </p>
+
+        <p>현재시간:<span id="time"></span></p>
+
+        <hr />
+
+        <p>
+          배경색 바꾸기 :
+          <button onclick="pink()">Pink</button>
+          <button onclick="lightblue()">Lightblue</button>
+          <button onclick="yellow()">yellow</button>
+          <button onclick="reset()">reset</button>
+        </p>
+
+        <p>
+          배워봅시다:
+          <button onmouseover="showhtml()" onmouseout="hide()">HTML3</button>
+          <button onmouseover="showcss()" onmouseout="hide()">CSS3</button>
+          <button onmouseover="showjs()" onmouseout="hide()">Javascript</button>
+        </p>
+
+        <hr />
+        <br />
+
+        <div>
+          <img id="fig" height="200px" />
+          <p id="desc"></p>
+        </div>
+      </div>
+    </section>
+
+    <script src="main.js"></script>
+  </body>
+</html>
